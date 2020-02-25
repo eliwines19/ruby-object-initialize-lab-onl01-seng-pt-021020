@@ -17,6 +17,9 @@ class Dog
   end
 
   def breed
-    @breed
+    if @breed = ("")
+      puts "Mutt"
+    else
+      @breed
   end
 end
