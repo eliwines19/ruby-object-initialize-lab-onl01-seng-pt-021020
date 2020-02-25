@@ -21,5 +21,6 @@ class Dog
       puts "Mutt"
     else
       @breed
+    end
   end
 end
